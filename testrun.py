@@ -1,5 +1,3 @@
-from classify_image import set_image, classify
+from verify_pizza import verify
 
-set_image('/home/kch/Downloads/pizzazz.jpg')
-result = classify()
-print(result[0] + " " + str(result[1]))
+print(verify('/home/kch/Downloads/yes.jpg'))
