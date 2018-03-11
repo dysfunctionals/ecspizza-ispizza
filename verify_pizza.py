@@ -1,4 +1,4 @@
-from ..classify_image import set_image, classify
+from __import__(ecspizza.ispizza).classify_image import set_image, classify
 
 def verify(imagePath):
     set_image(imagePath)
