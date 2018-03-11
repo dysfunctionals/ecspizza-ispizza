@@ -5,6 +5,6 @@ The pizzaness analyser for ecs.pizza! The ispizza.sh script will check an image 
 Requires a working python3 install and tensorflow.
 
 ## Usage
-ispizza.sh image.jpg
+Use the testrun.py script to verify a pizza.
 
-This will output a value between 0 and 1 for the pizzaness of the given image, where 0 is not at all pizza and 1 is defnitely pizza.
+This will output a value between <an arbitrary string> and 🍕 for the pizzaness of the given image, where <an arbitrary string> is not at all pizza and 🍕 is defnitely pizza.
