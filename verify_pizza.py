@@ -1,5 +1,5 @@
-set_image = __import__('verification.ecspizza-ispizza.classify_image.set_image')
-classify = __import__('verification.ecspizza-ispizza.classify_image.classify')
+set_image = __import__('verification.ecspizza-ispizza.classify_image').set_image
+classify = __import__('verification.ecspizza-ispizza.classify_image').classify
 
 def verify(imagePath):
     set_image(imagePath)
